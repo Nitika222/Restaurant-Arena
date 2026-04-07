@@ -1,0 +1,64 @@
+$primary-color: red;
+
+.menu {
+  display: flex;
+
+  h1 {
+    color: $primary-color;
+  }
+}
+.menu {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+@mixin button-style {
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+button {
+  @include button-style;
+}
+.menu {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.menu {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.menu {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+
+.menu {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}.menu {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}

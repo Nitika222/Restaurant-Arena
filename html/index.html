@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoodVerse Restaurant</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+
+<header>
+<h1>Food Verse</h1>
+
+<input type="text" id="search" placeholder="Search food..." onkeyup="searchFood()">
+
+<a href="menu.html"><button id="menuBtn">☰</button>
+<b>menu</b> </a>
+<a href="dashboard.html">dashboad</a>
+<a href="contact.html">contact</a>
+
+<button onclick="toggleCart()">Cart</button>
+</header>
+
+<section class="hero">
+<h2>Order Delicious Food Online</h2>
+<p>Fast Delivery. Fresh Food. Best Taste</p>
+</section>
+
+<section id="menu">
+<h2>Popular Dishes</h2>
+<div id="foodContainer" class="menu-container"></div>
+</section>
+
+
+  <title>Menu Toggle</title>
+  <link rel="stylesheet" href="style.css"
+
+
+
+<!-- Menu -->
+
+
+<script src="toggle.js"></script>
+
+
+<!-- Cart -->
+
+<div id="cart" class="cart">
+
+<h2>Your Cart</h2>
+
+<button onclick="toggleCart()">Close</button>
+
+<ul id="cartItems"></ul>
+
+<h3>Total $<span id="total">0</span></h3>
+
+<button onclick="checkout()">Checkout</button>
+
+</div>
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>
